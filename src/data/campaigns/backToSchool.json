@@ -1,0 +1,98 @@
+{
+  "id": "back-to-school",
+  "name": "Back to School",
+  "theme": {
+    "primary": "#1D4ED8",
+    "background": "#FFFDE7",
+    "surface": "#FFFFFF",
+    "text": "#15233B",
+    "accent": "#FACC15"
+  },
+  "overlay": {
+    "type": "FULL_SCREEN_OVERLAY",
+    "animation_url": "https://assets10.lottiefiles.com/packages/lf20_u4yrau.json"
+  },
+  "blocks": [
+    {
+      "id": "bts-hero",
+      "type": "BANNER_HERO",
+      "title": "Back to School Mega-Sale",
+      "subtitle": "Up to 50% off bags, bottles & supplies",
+      "image": "https://picsum.photos/seed/school,kids,backpack/800/400",
+      "cta": {
+        "label": "Grab Deals",
+        "action": { "type": "DEEP_LINK", "payload": { "url": "/campaign/back-to-school" } }
+      }
+    },
+    {
+      "id": "bts-lunchboxes",
+      "type": "DYNAMIC_COLLECTION",
+      "title": "Lunchboxes & Bags",
+      "products": [
+        {
+          "id": "bts-milton-lunch",
+          "title": "Milton Steel Insulated Lunch Box 3 Tier",
+          "price": 549,
+          "image": "https://picsum.photos/seed/lunchbox,kids,steel/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "bts-milton-lunch" } }
+        },
+        {
+          "id": "bts-wildcraft-bag",
+          "title": "Wildcraft Dino Kids School Backpack 20L",
+          "price": 899,
+          "image": "https://picsum.photos/seed/kids,backpack,school/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "bts-wildcraft-bag" } }
+        },
+        {
+          "id": "bts-cello-bottle",
+          "title": "Cello H2O Kids Sipper Bottle 600ml",
+          "price": 249,
+          "image": "https://picsum.photos/seed/kids,water,bottle/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "bts-cello-bottle" } }
+        },
+        {
+          "id": "bts-camlin-case",
+          "title": "Camlin Zip Around Pencil Case",
+          "price": 89,
+          "image": "https://picsum.photos/seed/pencil,case,kids/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "bts-camlin-case" } }
+        }
+      ]
+    },
+    {
+      "id": "bts-stationery",
+      "type": "PRODUCT_GRID_2X2",
+      "title": "Stationery Must-Haves",
+      "products": [
+        {
+          "id": "bts-camlin-crayons",
+          "title": "Camlin Wax Crayons 24 Shades",
+          "price": 89,
+          "image": "https://picsum.photos/seed/crayons,colorful,kids/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "bts-camlin-crayons" } }
+        },
+        {
+          "id": "bts-navneet-notebooks",
+          "title": "Navneet Ruled Notebooks Pack of 6",
+          "price": 149,
+          "image": "https://picsum.photos/seed/notebook,school,stationery/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "bts-navneet-notebooks" } }
+        },
+        {
+          "id": "bts-faber-watercolour",
+          "title": "Faber-Castell Watercolour Paint Set 12",
+          "price": 199,
+          "image": "https://picsum.photos/seed/watercolour,paint,art/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "bts-faber-watercolour" } }
+        },
+        {
+          "id": "bts-pidilite-glue",
+          "title": "Pidilite Fevistik Glue Sticks Pack of 3",
+          "price": 49,
+          "image": "https://picsum.photos/seed/glue,craft,school/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "bts-pidilite-glue" } }
+        }
+      ]
+    }
+  ]
+}

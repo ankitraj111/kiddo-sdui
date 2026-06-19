@@ -1,0 +1,146 @@
+{
+  "theme": {
+    "primary": "#FF9933",
+    "background": "#FFF5E6",
+    "surface": "#FFFFFF",
+    "text": "#1F2933",
+    "accent": "#FFD23F"
+  },
+  "blocks": [
+    {
+      "id": "hero-welcome",
+      "type": "BANNER_HERO",
+      "title": "Delivered in minutes",
+      "subtitle": "Everything for your baby, at your door",
+      "image": "https://picsum.photos/seed/baby,mother,happy/800/400",
+      "cta": {
+        "label": "Shop Now",
+        "action": { "type": "DEEP_LINK", "payload": { "url": "/category/all" } }
+      }
+    },
+    {
+      "id": "grid-essentials",
+      "type": "PRODUCT_GRID_2X2",
+      "title": "Daily Essentials",
+      "products": [
+        {
+          "id": "p-pampers-s40",
+          "title": "Pampers Baby-Dry Diapers Tape S (40 count)",
+          "price": 449,
+          "image": "https://picsum.photos/seed/diaper,baby,soft/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "p-pampers-s40" } }
+        },
+        {
+          "id": "p-himalaya-wipes",
+          "title": "Himalaya Baby Gentle Wipes (72 sheets)",
+          "price": 99,
+          "image": "https://picsum.photos/seed/baby,wipes,fresh/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "p-himalaya-wipes" } }
+        },
+        {
+          "id": "p-nan-pro-1",
+          "title": "Nestle NAN PRO 1 Infant Formula 400g",
+          "price": 649,
+          "image": "https://picsum.photos/seed/baby,milk,formula/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "p-nan-pro-1" } }
+        },
+        {
+          "id": "p-himalaya-oil",
+          "title": "Himalaya Baby Oil 200ml",
+          "price": 149,
+          "image": "https://picsum.photos/seed/baby,lotion,care/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "p-himalaya-oil" } }
+        }
+      ]
+    },
+    {
+      "id": "collection-snacks",
+      "type": "DYNAMIC_COLLECTION",
+      "title": "Snacks under ₹99",
+      "products": [
+        {
+          "id": "s-gerber-puffs",
+          "title": "Gerber Puffs Strawberry 42g",
+          "price": 75,
+          "image": "https://picsum.photos/seed/healthy,snack,puff/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "s-gerber-puffs" } }
+        },
+        {
+          "id": "s-sunfeast-noodles",
+          "title": "Sunfeast YiPPee Magic Masala Noodles",
+          "price": 25,
+          "image": "https://picsum.photos/seed/noodles,kids,snack/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "s-sunfeast-noodles" } }
+        },
+        {
+          "id": "s-real-juice",
+          "title": "Real Fruit Power Jr Apple Juice 200ml",
+          "price": 45,
+          "image": "https://picsum.photos/seed/kids,juice,apple/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "s-real-juice" } }
+        },
+        {
+          "id": "s-parleg-royale",
+          "title": "Parle-G Royale Biscuits 120g",
+          "price": 30,
+          "image": "https://picsum.photos/seed/kids,biscuit,ragi/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "s-parleg-royale" } }
+        },
+        {
+          "id": "s-munch-mini",
+          "title": "Nestle Munch Mini Chocolate 22g",
+          "price": 20,
+          "image": "https://picsum.photos/seed/chocolate,kids,mini/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "s-munch-mini" } }
+        }
+      ]
+    },
+    {
+      "id": "unknown-future-block",
+      "type": "NEW_COMPONENT_V2",
+      "experimentalPayload": { "foo": "bar", "rolloutPercent": 5 }
+    },
+    {
+      "id": "collection-toys",
+      "type": "DYNAMIC_COLLECTION",
+      "title": "Top Toys",
+      "products": [
+        {
+          "id": "t-fisherprice-rattle",
+          "title": "Fisher-Price Soothing Motions Rattle",
+          "price": 299,
+          "image": "https://picsum.photos/seed/kids,toy,colorful/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "t-fisherprice-rattle" } }
+        },
+        {
+          "id": "t-funskool-stacker",
+          "title": "Funskool Soft Ring Stacker (6 rings)",
+          "price": 399,
+          "image": "https://picsum.photos/seed/baby,ring,stacker/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "t-funskool-stacker" } }
+        },
+        {
+          "id": "t-nuby-teether",
+          "title": "Nuby Silicone Ice Bite Teether",
+          "price": 149,
+          "image": "https://picsum.photos/seed/baby,teether,silicone/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "t-nuby-teether" } }
+        },
+        {
+          "id": "t-leapfrog-mat",
+          "title": "LeapFrog Learn & Groove Musical Mat",
+          "price": 599,
+          "image": "https://picsum.photos/seed/kids,musical,mat/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "t-leapfrog-mat" } }
+        },
+        {
+          "id": "t-munchkin-float",
+          "title": "Munchkin Float & Play Bubbles Bath Toy",
+          "price": 199,
+          "image": "https://picsum.photos/seed/baby,bath,toy/300/300",
+          "action": { "type": "ADD_TO_CART", "payload": { "id": "t-munchkin-float" } }
+        }
+      ]
+    }
+  ]
+}
